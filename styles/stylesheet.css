@@ -1,0 +1,82 @@
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+
+.title {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+    margin: 0%;
+}
+
+.topnav {
+    background-color:rgb(102, 255, 255) ;
+    overflow: hidden;
+    border: solid white 5px;
+} 
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.imagewrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 20px 20px;
+}
+
+.imagetext {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    padding: 0%;
+    margin-top: 7px;
+    margin-bottom: -7px;
+}
+
+.imageborder {
+    border: solid black 7px;
+}
+
+.calender {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    display: block;
+}
